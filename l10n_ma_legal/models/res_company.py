@@ -4,7 +4,7 @@ from odoo import models, fields
 class ResCompany(models.Model):
     _inherit = 'res.company'
     
-    pat = fields.Char(string='Patente')
+    tp = fields.Char(string='TP')
     ice = fields.Char(string='ICE')
     cnss = fields.Char(string='CNSS')
 
